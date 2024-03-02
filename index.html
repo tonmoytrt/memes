@@ -123,10 +123,10 @@ const contractAddress = "FN1Qk5Lsjb9WT3U84Ki31Tp6eZQUfsuCWFbgvcZZybt9";
 $(".telegram-link").attr("href","https://t.me/Memes_SOL");
 $(".twitter-link").attr("href","https://twitter.com/Memes_On_Sol");
 $('.changetoca').text(contractAddress);
-$(".dexscreener-link").attr("href",`https://dexscreener.com/solana/${contractAddress}`);
-$(".chart-link").attr("href",`https://www.dextools.io/app/en/solana/pair-explorer/${contractAddress}`);
-$(".buy-link").attr("href",`https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${contractAddress}&fixed=in`);
-$(".etherscan-link").attr("href",`https://solscan.io/token/${contractAddress}`);
+$(".dexscreener-link").attr("href",`dexcreenerlink`);
+$(".chart-link").attr("href",`chartlink`);
+$(".buy-link").attr("href",`buylink`);
+$(".etherscan-link").attr("href",`solscanlink`);
 $("#copyThis-3").attr("value", `${contractAddress}`);
 $(".c2c-txt").text(`${contractAddress}`);
 $(".c2c-txt.tablet").text(`${contractAddress.substring(0,5)}.....${contractAddress.slice(-4)}`);
@@ -136,7 +136,7 @@ $("#copy-to-clipboard").on("click", function(){
 navigator.clipboard.writeText(contractAddress); 
 $('.c2c-txt').text("CA Copied ✓ ");
 });
-$(".jup-link").attr("href",`https://jup.ag/swap/SOL-${contractAddress}`);
+$(".jup-link").attr("href",`juplink`);
 </script>
     </div>
   </div>
