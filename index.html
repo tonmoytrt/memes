@@ -131,7 +131,7 @@ $("#copyThis-3").attr("value", `${contractAddress}`);
 $(".c2c-txt").text(`${contractAddress}`);
 $(".c2c-txt.tablet").text(`${contractAddress.substring(0,5)}.....${contractAddress.slice(-4)}`);
 $("#iframe-chart").attr("src",`https://dexscreener.com/solana/${contractAddress}?embed=1&theme=dark&trades=0&info=0`);
-$("#uni-embed").attr("src",`https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${contractAddress}&fixed=in`);
+$("#uni-embed").attr("src",`buylink`);
 $("#copy-to-clipboard").on("click", function(){
 navigator.clipboard.writeText(contractAddress); 
 $('.c2c-txt').text("CA Copied ✓ ");
